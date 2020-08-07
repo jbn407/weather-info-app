@@ -5,23 +5,26 @@ weather-info-app api
 1. Save weather information of a city in MYSQL database
 2. Verify if a given string is a Palindrome
 3. Reverse a given string
- 
-## Getting Started
-Import this project as a Maven Project in IntelliJ IDE.
 
 ##Pre-Requisites
 Intellij Community Edition
 Maven Plugin
 Java 14 JDK
 MYSQL
+ 
+## Getting Started
+Clone URL: https://github.com/jbn407/weather-info-app.git
+Import the project as a Maven Project in IntelliJ IDE.
 
 ##Run Steps
 Run as spring boot application.
+Main class Path: weather-info-app\src\main\java\com\labs\weather\controllerWeatherInfoMain.java
 
 #DB details
 Port number: 8154
 DB User: root
 Pwd: root1234
+DB Script file: "DB_Script.sql" is attached with the mail
 
 #endpoints
 1. Weather Info Controller
@@ -38,6 +41,7 @@ Pwd: root1234
 	GET: http://localhost:8154/reversestring?value=Reverse
 
 	Success Response: esreveR
+Note: Postman Requests are attached with the mail as: "AccionLabs Test Assignment.postman_collection.json"
 
 ## Author
 Bharath Javvaji
